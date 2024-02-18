@@ -1,16 +1,20 @@
-import React from "react";
-import Button from "./assets/components/Button";
-import Nav from "./assets/Home/Nav";
-import { BrowserRouter as Router } from "react-router-dom";
+
+import React from 'react'
+import Signup from './pages/Signup';
 import Dashboard from "./assets/Home/Dashboard";
-import CartCard from "./assets/components/CartCard";
 
 export default function App() {
   return (
-    // <Button name = "Submit"/>
-    <Router>
-      <Dashboard></Dashboard>
-     
-    </Router>
-  );
+    <>
+    
+      <Signup/>
+       <Dashboard></Dashboard>
+    
+    </>
+  
+  )
 }
+  
+
+
+
