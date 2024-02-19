@@ -1,21 +1,15 @@
+import React from "react";
 
-import React from 'react'
-import Signup from './pages/Signup';
 import Dashboard from "./assets/Home/Dashboard";
-import { BrowserRouter as Router } from 'react-router-dom';
+import { BrowserRouter as Router } from "react-router-dom";
+import Signin from "./pages/Signin";
 
 export default function App() {
   return (
     <>
       <Router>
-        {/*     
-      <Signup/> */}
-        <Dashboard></Dashboard>
+        <Signin></Signin>
       </Router>
     </>
   );
 }
-  
-
-
-
