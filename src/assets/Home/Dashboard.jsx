@@ -10,18 +10,16 @@ import Recommendation from "./Recommendation";
 export default function Dashboard() {
   return (
     <>
-      <Nav></Nav>
-      <div
-        className="w-full h-screen bg-[#D0D0D0] pt-6 pl-36 pr-80 lg:pl-56 lg:pr-96  
-      
-       space-y-8"
-      >
-        <Search></Search>
-        <Section></Section>
-        <Recommendation/>
-
-      
-        <div className=" flex justify-end">
+      <div className="flex space-x-5 bg-[#D0D0D0]">
+        <div className="w-28 border-2">
+          <Nav></Nav>
+        </div>
+        <div className="flex-1 h-screen border-2 p-5 space-y-5">
+          <Search></Search>
+          <Section></Section>
+          <Recommendation></Recommendation>
+        </div>
+        <div className=" xs:w-44 md:w-56 xl:w-64 border-2">
           <LeftCard></LeftCard>
         </div>
       </div>
