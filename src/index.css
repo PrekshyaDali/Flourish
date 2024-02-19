@@ -2,6 +2,7 @@
 
 @tailwind base;
 @tailwind components;
+.inputfields{}
 @tailwind utilities;
 
 *>*{
